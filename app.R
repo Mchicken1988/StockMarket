@@ -7,7 +7,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
     h4("Choose stock"),
-    fileInput("files", "Upload", multiple = FALSE, accept = c(".csv"))
+    fileInput("files", "Upload CSV File", multiple = FALSE, accept = c(".csv"))
     ),
     mainPanel(
       tabsetPanel(type = "tabs",
